@@ -1,7 +1,7 @@
 @import url(../fonts/fonts.css);
 /* место для вашего кода */
 
-.header { 
+.header {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr min-content 1fr;
@@ -63,9 +63,9 @@
 
 .overlay {
   inset: 0;
-	position: absolute;
-	background: #000;
-	opacity: 0.6;
+  position: absolute;
+  background: #000;
+  opacity: 0.6;
 }
 .cover .title {
   position: relative;
@@ -191,10 +191,9 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 2fr;
-  grid-template-areas: 
+  grid-template-areas:
     "logo title"
-    ". description"
-  ;
+    ". description";
   padding: 24px;
 }
 
@@ -263,7 +262,9 @@
   text-underline-offset: 4px;
 }
 
-.footer__menu, ul, li {
+.footer__menu,
+ul,
+li {
   justify-self: center;
 }
 
@@ -277,7 +278,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 240px; 
+  width: 240px;
 }
 
 .footer__social-link {
@@ -290,8 +291,3 @@
   width: 100%;
   display: block;
 }
-
-
-
-
-
