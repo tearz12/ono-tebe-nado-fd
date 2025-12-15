@@ -37,7 +37,7 @@
   height: 105px;
 }
 
-.header__address {
+.address {
   display: grid;
   justify-self: end;
   max-width: 240px;
