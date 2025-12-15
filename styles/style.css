@@ -1,14 +1,11 @@
-@import url(../fonts/fonts.css);
 /* место для вашего кода */
 
 .header {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr min-content 1fr;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 92px 50px 96px 50px;
   width: 100%;
-  height: 293px;
   text-underline-offset: 4px;
 }
 
@@ -16,7 +13,6 @@
   display: grid;
   justify-content: center;
   width: 391.48px;
-  height: 22px;
 }
 
 .header__links-list {
@@ -70,7 +66,7 @@
 .cover .title {
   position: relative;
   z-index: 1;
-  padding: 165px 50px 0px 50px;
+  padding: 165px 21px 0px 50px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
@@ -115,7 +111,7 @@
   background-color: #ffffff00;
 }
 .lots {
-  margin: 180px 24px 120px 24px;
+  margin: 180px 24px 95px 24px;
 }
 
 .lots .title {
@@ -132,7 +128,9 @@
   list-style: none;
   padding: 0;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
+
 .card-link {
   text-decoration: none;
 }
@@ -190,13 +188,13 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "logo title"
     ". description";
-  padding: 24px;
-}
+  padding: 24px 24px 164px 24px;
 
+}
 .about__logo {
   grid-area: logo;
   margin-left: 47px;
@@ -222,22 +220,25 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 25px;
-  margin-left: 5px;
+  margin-top: 13px;
+  margin-left: 7px;
 }
 
 .description-block {
   grid-area: description;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  position: relative;
+  top: -22px;
+  left: 3px;
+  gap: 26px;
 }
 
 .description-block p {
   margin-left: 5px;
   font-size: 20px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.17;
   max-width: 690px;
 }
 
@@ -245,7 +246,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
-  min-height: 180px;
   font-size: 18px;
 }
 
@@ -276,6 +276,8 @@ li {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  position: relative;
+  left: 13px;
   padding: 0;
   margin: 0;
   width: 240px;
